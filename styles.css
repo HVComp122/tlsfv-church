@@ -1,11 +1,38 @@
-img {
-    width: 100%; /* Adjust based on your design preference */
-    height: auto; /* Maintain aspect ratio */
-    margin-bottom: 20px; /* Space below images */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
 }
 
-section#images img {
-    width: 25%; /* Display gallery images in a grid-like fashion */
-    height: auto;
+header, footer {
+    background-color: #003366;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+h1, h2 {
+    margin: 10px 0;
+}
+
+section {
+    padding: 20px;
     margin: 10px;
+    background-color: white;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
