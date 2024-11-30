@@ -18,7 +18,7 @@ header {
     align-items: center;
 }
 
-h1 {
+h1, h2 {
     margin: 0;
     font-size: 24px;
 }
@@ -43,21 +43,39 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-.header-image {
+.header-image, .building-image {
     width: 100%;
     height: auto;
     display: block;
 }
 
-section {
+.intro-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     padding: 20px;
-    margin-top: 20px;
-    background: white;
 }
 
-.responsive {
-    max-width: 100%;
-    height: auto;
+.building-image {
+    width: 50%; /* Adjust size as needed */
+}
+
+.welcome-text {
+    width: 50%; /* Adjust size as needed */
+    padding: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #004494;
 }
 
 footer {
