@@ -93,25 +93,32 @@ footer {
 /* Styles specific to the Weekly Services section */
 .weekly-services {
     display: flex;
-    justify-content: space-around; /* Evenly space service blocks */
+    justify-content: space-between; /* Evenly space service blocks */
+    align-items: center; /* Aligns items vertically */
     padding: 20px;
     background-color: #f4f4f4; /* Matches the body background for coherence */
 }
 
 .weekly-services h2 {
     width: 100%; /* Full width */
-    text-align: center; /* Center align the section title */
+    text-align: center; /* Centers the title text */
+    margin-bottom: 20px; /* Adds space below the title */
 }
 
 .service {
-    flex: 1; /* Each service takes equal width */
-    text-align: center; /* Center align the text and images */
+    width: 30%; /* Sets each service block to take up 30% of the container width */
+    text-align: center; /* Centers the text and images within each service block */
     padding: 10px;
 }
 
 .service img {
-    width: 100%; /* Full width of their container */
-    height: auto; /* Keep aspect ratio */
-    max-width: 200px; /* Limit image width */
-    margin: 0 auto; /* Center images horizontally */
+    width: 100%; /* Allows the image to expand to fill the container width */
+    height: auto; /* Maintains the image's aspect ratio */
+    max-width: 200px; /* Restricts the maximum width of the image */
+    margin: 0 auto 10px; /* Centers the image and adds space below */
+}
+
+.service p {
+    margin-top: 0; /* Removes the top margin from the paragraph for tighter spacing */
+    font-size: 14px; /* Adjusts the font size for readability */
 }
