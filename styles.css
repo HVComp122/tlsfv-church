@@ -2,12 +2,12 @@ body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f4f4f4; /* Light grey background color for better contrast */
 }
 
 header {
-    background-color: #ffffff; /* White background */
-    color: #333333; /* Dark grey text for contrast */
+    background-color: #ffffff; /* White background for the header */
+    color: #333333; /* Dark grey text color for contrast */
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
@@ -16,36 +16,36 @@ header {
 
 h1 {
     margin: 0;
-    text-align: left; /* Ensures the title aligns to the left */
+    text-align: left; /* Align the title to the left */
 }
 
 nav {
-    text-align: right; /* Ensures navigation links align to the right */
+    text-align: right; /* Align navigation links to the right */
 }
 
 nav ul {
-    list-style-type: none;
+    list-style-type: none; /* No bullets on navigation links */
     padding: 0;
     margin: 0;
     display: flex;
 }
 
 nav ul li {
-    margin-left: 20px;
+    margin-left: 20px; /* Spacing between navigation links */
 }
 
 nav ul li a {
-    color: #000000; /* Links are black */
-    text-decoration: none;
-    font-weight: 600;
+    color: #000000; /* Black color for navigation links */
+    text-decoration: none; /* No underline by default */
+    font-weight: 600; /* Bold font weight for better legibility */
 }
 
 nav ul li a:hover {
-    text-decoration: underline; /* Underline on hover for visibility */
+    text-decoration: underline; /* Underline on hover for visual feedback */
 }
 
 .full-width-image {
-    max-width: 100%; /* Full width of the container but no larger */
+    max-width: 100%; /* Full width images adjust to container size */
     height: auto;
     display: block;
 }
@@ -63,7 +63,7 @@ nav ul li a:hover {
 }
 
 .building-image {
-    max-width: 100%; /* Responsive image fits its container */
+    max-width: 100%; /* Responsive building image adjusts to its container */
     height: auto;
 }
 
@@ -73,19 +73,45 @@ nav ul li a:hover {
 
 button {
     padding: 10px 20px;
-    background-color: #0056b3; /* Button color matches the original link color */
-    color: white;
+    background-color: #0056b3; /* Blue background for buttons */
+    color: white; /* White text color for buttons */
     border: none;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #004494; /* Darker blue on hover for button */
+    background-color: #004494; /* Darker blue on hover for buttons */
 }
 
 footer {
     background-color: #333; /* Dark footer background */
-    color: white;
+    color: white; /* White text color in footer */
     text-align: center;
     padding: 10px 0;
+}
+
+/* Styles specific to the Weekly Services section */
+.weekly-services {
+    display: flex;
+    justify-content: space-around; /* Evenly space service blocks */
+    padding: 20px;
+    background-color: #f4f4f4; /* Matches the body background for coherence */
+}
+
+.weekly-services h2 {
+    width: 100%; /* Full width */
+    text-align: center; /* Center align the section title */
+}
+
+.service {
+    flex: 1; /* Each service takes equal width */
+    text-align: center; /* Center align the text and images */
+    padding: 10px;
+}
+
+.service img {
+    width: 100%; /* Full width of their container */
+    height: auto; /* Keep aspect ratio */
+    max-width: 200px; /* Limit image width */
+    margin: 0 auto; /* Center images horizontally */
 }
