@@ -9,19 +9,19 @@ header {
     background-color: #003366;
     color: white;
     padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    text-align: center;
 }
 
-h1, h2 {
+.header-content h1, nav ul {
     margin: 0;
-    font-size: 24px;
+    padding: 0;
+    display: inline-block;
 }
 
 nav ul {
-    list-style-type: none;
+    list-style: none;
     padding: 0;
+    text-align: right;
 }
 
 nav ul li {
@@ -39,26 +39,32 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-.main-content {
+.header-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.image-text-container {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 20px;
 }
 
-.left-image {
+.building-image {
     width: 50%;
-    max-width: 600px; /* Adjust based on your preference */
+    max-width: 600px;  /* Adjust based on your preference */
     height: auto;
-    padding-right: 20px;
 }
 
-.text-content {
+.welcome-text {
     width: 50%;
     padding: 20px;
 }
 
 button {
+    margin-top: 20px;
     padding: 10px 20px;
     background-color: #0056b3;
     color: white;
