@@ -10,22 +10,30 @@ header {
     color: white;
     padding: 10px 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* Ensures elements are on opposite sides */
     align-items: center;
 }
 
 h1 {
     margin: 0;
+    flex-grow: 1; /* Allows the title to take any available space pushing the nav to the right */
+    text-align: left; /* Ensures text aligns to the left */
+}
+
+nav {
+    flex-grow: 1; /* Allows navigation to take up available space if needed */
+    text-align: right; /* Aligns the navigation links to the right */
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    display: flex;
+    display: inline-block; /* Aligns the list inline */
 }
 
 nav ul li {
+    display: inline;
     margin-left: 20px;
 }
 
@@ -58,7 +66,7 @@ nav ul li a:hover {
 
 .building-image {
     width: 100%;
-    max-width: 500px;
+    max-width: 500px; /* Adjust width as necessary */
     height: auto;
 }
 
