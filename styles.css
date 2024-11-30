@@ -1,44 +1,11 @@
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #f4f4f4;
+img {
+    width: 100%; /* Adjust based on your design preference */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Space below images */
 }
 
-header {
-    background-color: #003366;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
-
-section {
-    background-color: white;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 8px;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-li {
-    margin-bottom: 10px;
-}
-
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
-
-a {
-    color: #0066cc;
-}
-
-a:hover {
-    text-decoration: underline;
+section#images img {
+    width: 25%; /* Display gallery images in a grid-like fashion */
+    height: auto;
+    margin: 10px;
 }
