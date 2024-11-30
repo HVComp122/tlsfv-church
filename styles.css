@@ -9,10 +9,6 @@ header {
     background-color: #003366;
     color: white;
     padding: 10px 20px;
-    position: relative;
-}
-
-.header-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,25 +39,22 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-.header-image, .building-image {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-.intro-section {
+.main-content {
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    justify-content: center;
     padding: 20px;
 }
 
-.building-image {
-    width: 50%; /* Adjust size as needed */
+.left-image {
+    width: 50%;
+    max-width: 600px; /* Adjust based on your preference */
+    height: auto;
+    padding-right: 20px;
 }
 
-.welcome-text {
-    width: 50%; /* Adjust size as needed */
+.text-content {
+    width: 50%;
     padding: 20px;
 }
 
@@ -71,7 +64,6 @@ button {
     color: white;
     border: none;
     cursor: pointer;
-    margin-top: 20px;
 }
 
 button:hover {
