@@ -6,31 +6,21 @@ body {
 }
 
 header {
-    background-color: #ffffff; /* Change from #003366 to #ffffff for white */
-    color: #000000; /* Change text color to black for better contrast on white background */
+    background-color: #ffffff; /* White background */
+    color: #333333; /* Dark grey text for contrast */
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-nav ul li a {
-    color: #000000; /* Ensure link colors are visible on a white background */
-    text-decoration: none;
-    font-weight: 600;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
 h1 {
     margin: 0;
-    text-align: left; /* Align title to the left */
+    text-align: left; /* Ensures the title aligns to the left */
 }
 
 nav {
-    text-align: right; /* Align navigation links to the right */
+    text-align: right; /* Ensures navigation links align to the right */
 }
 
 nav ul {
@@ -45,13 +35,13 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #000000; /* Links are black */
     text-decoration: none;
     font-weight: 600;
 }
 
 nav ul li a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Underline on hover for visibility */
 }
 
 .full-width-image {
@@ -73,7 +63,7 @@ nav ul li a:hover {
 }
 
 .building-image {
-    max-width: 100%; /* Ensures the image is responsive and fits its container */
+    max-width: 100%; /* Responsive image fits its container */
     height: auto;
 }
 
@@ -83,18 +73,18 @@ nav ul li a:hover {
 
 button {
     padding: 10px 20px;
-    background-color: #0056b3;
+    background-color: #0056b3; /* Button color matches the original link color */
     color: white;
     border: none;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #004494;
+    background-color: #004494; /* Darker blue on hover for button */
 }
 
 footer {
-    background-color: #333;
+    background-color: #333; /* Dark footer background */
     color: white;
     text-align: center;
     padding: 10px 0;
