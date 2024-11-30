@@ -6,12 +6,22 @@ body {
 }
 
 header {
-    background-color: #003366;
-    color: white;
+    background-color: #ffffff; /* Change from #003366 to #ffffff for white */
+    color: #000000; /* Change text color to black for better contrast on white background */
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+nav ul li a {
+    color: #000000; /* Ensure link colors are visible on a white background */
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
 }
 
 h1 {
