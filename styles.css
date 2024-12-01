@@ -130,55 +130,61 @@ footer {
 }
 
 /* Upcoming Events Styles */
-.upcoming-events {
-    background-color: #ffffff; /* White background for better readability */
-    padding: 20px; /* Padding around the content */
-    margin-top: 20px; /* Space from the previous content */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.upcoming-events h2 {
-    text-align: center; /* Centers the heading text */
-    color: #333; /* Dark text for the heading */
-    margin-bottom: 20px; /* Space below the heading */
-}
-
-.event {
+header {
+    background-size: cover;
+    height: 300px; /* Adjust based on your preference */
     display: flex;
-    align-items: center; /* Align items vertically in the center */
-    justify-content: space-between; /* Space between the image and event details */
-    margin-bottom: 20px; /* Space between each event */
-}
-
-.event-image {
-    flex: 1; /* Takes up 1 part of the flex container */
-    max-width: 400px; /* Maximum width of the image */
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 36px;
 }
 
 .event-details {
-    flex: 2; /* Takes up 2 parts of the flex container, making it larger than the image section */
-    padding: 20px; /* Padding inside the details section */
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
 }
 
-.event-details h3 {
-    color: #0056b3; /* Styling the event title with a specific color */
-    margin-bottom: 10px; /* Space below the title */
+.event-image {
+    flex: 1;
+    background-image: url('path_to_event_image.jpg');
+    background-size: cover;
+    min-height: 300px; /* Adjust based on your design needs */
 }
 
-.event-details p {
-    color: #666; /* Lighter text for the details */
-    line-height: 1.5; /* Increased line height for readability */
+.event-text {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff; /* White background for the text section */
 }
 
-.event-button {
-    background-color: #004494; /* Background color of the button */
-    color: white; /* Text color of the button */
-    padding: 10px 20px; /* Padding inside the button */
-    text-decoration: none; /* Removes underline from the link */
-    display: inline-block; /* Allows setting padding and other box model properties */
-    border-radius: 5px; /* Rounded corners for the button */
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
+.event-text h2 {
+    color: #0056b3; /* Theme color */
+    margin-top: 0;
 }
 
-.event-button:hover {
-    background-color: #003366; /* Darker shade on hover for the button */
+.event-text p {
+    margin: 5px 0;
 }
+
+button {
+    background-color: #004494;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #003366;
+}
+
