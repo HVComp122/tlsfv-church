@@ -92,23 +92,23 @@ footer {
 
 /* Weekly Services Styles */
 .weekly-services {
-    text-align: center;
-    padding: 40px 0;
+    padding: 20px;
     background-color: #f4f4f4;
 }
 
 .weekly-services h2 {
-    margin-bottom: 30px;
+    text-align: left;
+    margin-bottom: 20px;
 }
 
 .services-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around; /* Evenly space service blocks */
+    align-items: center; /* Aligns items vertically */
     gap: 20px;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* Allows items to wrap on smaller screens */
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0 auto; /* Centers the container horizontally */
 }
 
 .service {
