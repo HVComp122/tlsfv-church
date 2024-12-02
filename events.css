@@ -63,7 +63,7 @@ nav ul li a:hover {
     background-color: #fff; /* White background for the text section */
 }
 
-.event-text h2 {
+.event-text h3 {
     color: #0056b3; /* Theme color */
     margin-top: 0;
 }
