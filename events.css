@@ -84,3 +84,10 @@ button {
 button:hover {
     background-color: #003366;
 }
+
+footer {
+    background-color: #333; /* Dark footer background */
+    color: white; /* White text color in footer */
+    text-align: center;
+    padding: 10px 0;
+}
