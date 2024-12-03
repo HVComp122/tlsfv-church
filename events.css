@@ -1,9 +1,8 @@
-/* Upcoming Events Styles */
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4; /* Light grey background color for better contrast */
+    background-color: #f4f4f4; /* Light grey background color */
 }
 
 header {
@@ -15,57 +14,52 @@ header {
     align-items: center;
 }
 
-h1 {
-    margin: 0;
-    text-align: left; /* Align the title to the left */
-}
-
-nav {
-    text-align: right; /* Align navigation links to the right */
-}
-
 nav ul {
-    list-style-type: none; /* No bullets on navigation links */
+    list-style-type: none; /* No bullets */
     padding: 0;
     margin: 0;
     display: flex;
 }
 
 nav ul li {
-    margin-left: 20px; /* Spacing between navigation links */
+    margin-left: 20px;
 }
 
 nav ul li a {
-    color: #000000; /* Black color for navigation links */
-    text-decoration: none; /* No underline by default */
-    font-weight: 600; /* Bold font weight for better legibility */
+    color: #000000; /* Black color for links */
+    text-decoration: none; /* No underline */
+    font-weight: 600;
 }
 
 nav ul li a:hover {
-    text-decoration: underline; /* Underline on hover for visual feedback */
+    text-decoration: underline; /* Underline on hover */
 }
+
+.event-header {
+    background-size: cover;
+    text-align: center;
+    padding: 50px 20px; /* Adjust padding as needed */
+}
+
 .event-details {
     display: flex;
     justify-content: space-between;
     padding: 20px;
 }
 
-.event-image {
-    flex: 1;
-    background-image: url('path_to_event_image.jpg');
-    background-size: cover;
-    min-height: 300px; /* Adjust based on your design needs */
+.event-image img {
+    width: 100%; /* Adjust width as necessary */
+    max-width: 600px; /* Max width for the image */
 }
 
 .event-text {
     flex: 1;
     padding: 20px;
-    background-color: #fff; /* White background for the text section */
+    background-color: #fff; /* White background */
 }
 
 .event-text h3 {
-    color: #0056b3; /* Theme color */
-    margin-top: 0;
+    color: #0056b3; /* Theme color for the heading */
 }
 
 .event-text p {
@@ -73,25 +67,23 @@ nav ul li a:hover {
 }
 
 button {
-    background-color: #004494;
+    background-color: #004494; /* Button color */
     color: white;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
-    margin-top: 20px;
 }
 
 button:hover {
-    background-color: #003366;
+    background-color: #003366; /* Darker blue on hover */
 }
 
 footer {
-    background-color: #333; /* Dark footer background */
-    color: white; /* White text color in footer */
+    background-color: #333; /* Dark grey footer */
+    color: white;
     text-align: center;
     padding: 10px 0;
-    width: 100%; /* Full width */
-    position: fixed; /* Fixed position */
-    bottom: 0; /* Anchors the footer to the bottom */
-    left: 0; /* Aligns the footer to the left side */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
