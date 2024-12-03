@@ -88,6 +88,6 @@ button:hover {
 footer {
     background-color: #333; /* Dark footer background */
     color: white; /* White text color in footer */
-    text-align: bottom;
+    text-align: center;
     padding: 10px 0;
 }
