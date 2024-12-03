@@ -90,4 +90,8 @@ footer {
     color: white; /* White text color in footer */
     text-align: center;
     padding: 10px 0;
+    width: 100%; /* Full width */
+    position: fixed; /* Fixed position */
+    bottom: 0; /* Anchors the footer to the bottom */
+    left: 0; /* Aligns the footer to the left side */
 }
