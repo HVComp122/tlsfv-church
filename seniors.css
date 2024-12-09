@@ -46,7 +46,7 @@ nav ul li a:hover {
 
 .seniors-ministry {
     background-color: #f4f4f4; /* Light gray background color */
-    padding: 20px;
+    padding:40px;
     text-align: left;
 }
 
@@ -69,7 +69,7 @@ nav ul li a:hover {
 }
 
 .ministry-header {
-    font-size: 60px; /* Adjust this size to match your design requirements */
+    font-size: 100px; /* Adjust this size to match your design requirements */
     margin-bottom: 30px; /* Space between the header and the mission text */
 }
 
