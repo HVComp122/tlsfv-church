@@ -44,6 +44,18 @@ nav ul li a:hover {
     text-decoration: underline; /* Underline on hover for visual feedback */
 }
 
+.event-header {
+    background-size: cover;
+    text-align: center;
+    padding: 50px 20px; /* Adjust padding as needed */
+}
+
+.event-details {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
 .event-image img {
     width: 100%; /* Adjust width as necessary */
     max-width: 600px; /* Max width for the image */
