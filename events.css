@@ -14,37 +14,34 @@ header {
     align-items: center;
 }
 
+h1 {
+    margin: 0;
+    text-align: left; /* Align the title to the left */
+}
+
+nav {
+    text-align: right; /* Align navigation links to the right */
+}
+
 nav ul {
-    list-style-type: none; /* No bullets */
+    list-style-type: none; /* No bullets on navigation links */
     padding: 0;
     margin: 0;
     display: flex;
 }
 
 nav ul li {
-    margin-left: 20px;
+    margin-left: 20px; /* Spacing between navigation links */
 }
 
 nav ul li a {
-    color: #000000; /* Black color for links */
-    text-decoration: none; /* No underline */
-    font-weight: 600;
+    color: #000000; /* Black color for navigation links */
+    text-decoration: none; /* No underline by default */
+    font-weight: 600; /* Bold font weight for better legibility */
 }
 
 nav ul li a:hover {
-    text-decoration: underline; /* Underline on hover */
-}
-
-.event-header {
-    background-size: cover;
-    text-align: center;
-    padding: 50px 20px; /* Adjust padding as needed */
-}
-
-.event-details {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
+    text-decoration: underline; /* Underline on hover for visual feedback */
 }
 
 .event-image img {
