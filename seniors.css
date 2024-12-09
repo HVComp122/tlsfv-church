@@ -54,6 +54,7 @@ nav ul li a:hover {
     display: flex;
     justify-content: space-between;
     align-items: flex-start; /* Aligns the text and image at their top */
+    margin-bottom: 40px; /* Adjust this value to increase spacing below the content */
 }
 
 .ministry-text {
@@ -65,6 +66,19 @@ nav ul li a:hover {
     width: 100%; /* Ensures the image is responsive and fits within its container */
     max-width: 600px; /* Adjusts this value based on your layout needs */
     height: auto; /* Maintains the aspect ratio of the image */
+}
+
+.ministry-header {
+    font-size: 36px; /* Adjust this size to match your design requirements */
+    margin-bottom: 20px; /* Space between the header and the mission text */
+}
+
+.mission-text, .meeting-schedule {
+    font-size: 18px; /* Standard text size for content */
+}
+
+.meeting-schedule {
+    margin-top: 30px; /* Additional space above the meeting schedule */
 }
 
 footer {
