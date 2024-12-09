@@ -1,0 +1,12 @@
+.video-section {
+    max-width: 1200px; /* Adjust based on your layout needs */
+    margin: 20px auto; /* Centers the section and adds spacing */
+    padding: 20px; /* Padding around the content */
+    background-color: #f4f4f4; /* Light grey background for consistency with your design */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: adds subtle shadow for depth */
+}
+
+video {
+    width: 100%; /* Makes the video responsive */
+    height: auto; /* Maintains aspect ratio */
+}
