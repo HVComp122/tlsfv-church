@@ -68,10 +68,13 @@ nav ul li a:hover {
 }
 
 footer {
-    background-color: #333; /* Dark footer background */
-    color: white; /* White text color in footer */
+    background-color: #333; /* Dark grey footer */
+    color: white;
     text-align: center;
     padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 /* Dropdown Menu Styles */
 .dropdown {
