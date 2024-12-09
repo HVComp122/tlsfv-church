@@ -69,12 +69,12 @@ nav ul li a:hover {
 }
 
 .ministry-header {
-    font-size: 36px; /* Adjust this size to match your design requirements */
-    margin-bottom: 20px; /* Space between the header and the mission text */
+    font-size: 60px; /* Adjust this size to match your design requirements */
+    margin-bottom: 30px; /* Space between the header and the mission text */
 }
 
 .mission-text, .meeting-schedule {
-    font-size: 18px; /* Standard text size for content */
+    font-size: 30px; /* Standard text size for content */
 }
 
 .meeting-schedule {
