@@ -43,6 +43,7 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline; /* Underline on hover for visual feedback */
 }
+
 .seniors-ministry {
     background-color: #ffffff; /* Ensures the background is white */
     padding: 20px;
@@ -65,6 +66,7 @@ nav ul li a:hover {
     max-width: 600px; /* Adjusts this value based on your layout needs */
     height: auto; /* Maintains the aspect ratio of the image */
 }
+
 footer {
     background-color: #333; /* Dark footer background */
     color: white; /* White text color in footer */
