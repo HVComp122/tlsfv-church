@@ -35,9 +35,9 @@ nav ul li a:hover {
     text-decoration: underline; /* Underline on hover */
 }
 
-.young adults-ministry {
+.adults-ministry {
     background-color: #f4f4f4; /* Light gray background color */
-    padding:10px;
+    padding:20px;
     text-align: left;
 }
 
@@ -45,7 +45,7 @@ nav ul li a:hover {
     display: flex;
     justify-content: space-between;
     align-items: flex-start; /* Aligns the text and image at their top */
-    margin-bottom: 20px; /* Adjust this value to increase spacing below the content */
+    margin-bottom: 40px; /* Adjust this value to increase spacing below the content */
 }
 
 .ministry-text {
