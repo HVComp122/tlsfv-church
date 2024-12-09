@@ -1,0 +1,118 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light grey background color */
+}
+
+header {
+    background-color: #ffffff; /* White background for the header */
+    color: #333333; /* Dark grey text color for contrast */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none; /* No bullets */
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #000000; /* Black color for links */
+    text-decoration: none; /* No underline */
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.young adults-ministry {
+    background-color: #f4f4f4; /* Light gray background color */
+    padding:20px;
+    text-align: left;
+}
+
+.ministry-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Aligns the text and image at their top */
+    margin-bottom: 40px; /* Adjust this value to increase spacing below the content */
+}
+
+.ministry-text {
+    flex: 1;
+    padding-right: 20px; /* Adds some space between the text and the image */
+}
+
+.ministry-image img {
+    width: 100%; /* Ensures the image is responsive and fits within its container */
+    max-width: 600px; /* Adjusts this value based on your layout needs */
+    height: auto; /* Maintains the aspect ratio of the image */
+}
+
+.ministry-header {
+    font-size: 60px; /* Adjust this size to match your design requirements */
+    margin-bottom: 10px; /* Space between the header and the mission text */
+}
+
+.mission-text, .meeting-schedule {
+    font-size: 30px; /* Standard text size for content */
+}
+
+.meeting-schedule {
+    margin-top: 80px; /* Additional space above the meeting schedule */
+}
+
+footer {
+    background-color: #333; /* Dark grey footer */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* Dropdown Menu Styles */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff; /* White background for the dropdown */
+    min-width: 160px; /* Adjust width as necessary */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black; /* Black text for contrast */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left; /* Text aligned to the left */
+}
+
+.dropdown-content a:hover {
+    background-color: #ffffff; /* Background remains white on hover */
+    color: #0056b3; /* Change text color to blue for a subtle highlight */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover a {
+    background-color: #ddd; /* Light grey background for the dropdown button on hover */
+}
