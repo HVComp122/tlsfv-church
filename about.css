@@ -62,9 +62,6 @@ footer {
     margin-left: auto; /* Pushes the image to the right */
 }
 
-.introduction-image img {
-    width: 100%; /* Makes the image responsive within its container */
-    height: auto; /* Maintains aspect ratio */
 
 .contact-section .location-info {
     flex: 1;
