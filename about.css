@@ -46,31 +46,29 @@ footer {
 .introduction-section {
     display: flex;
     padding: 20px;
-    align-items: flex-start; /* Aligns items from the top */
+    align-items: center; /* Ensures vertical alignment is centered */
     max-width: 1200px;
-    margin: 40px auto; /* Increased margin for better centering and spacing */
+    margin: 40px auto; /* Centers the section and provides top and bottom spacing */
     justify-content: space-between; /* Ensures space between text and image */
 }
 
 .introduction-text {
-    width: 55%; /* Adjusted to take slightly more than half of the container */
-    padding-right: 30px; /* Increased spacing between text and image */
-    font-size: 18px; /* Adjusted for visibility and matching the design */
-    display: block; /* Ensures the block level nature for correct spacing */
+    width: 60%; /* Gives text a bit more space */
+    font-size: 18px; /* Matches your design specifications */
+    line-height: 1.6; /* Improves readability by spacing out lines */
+    display: block;
 }
 
 .introduction-image {
-    width: 30%; /* Adjusted width to not overpower the text */
-    display: block;
-    max-height: 100px; /* Increased max height for better visibility */
-    height: auto; /* Ensures the image maintains its aspect ratio */
-    margin-left: auto; /* Pushes the image to the right */
+    width: 35%; /* Adjust width for the image */
+    height: auto; /* Keeps the aspect ratio intact */
+    margin-left: 5%; /* Adds spacing between the text and the image */
 }
 
-/* Ensures the image is responsive and doesn't overflow its container */
+/* Styling for the image tag to ensure it fills the container */
 .introduction-image img {
-    width: 100%; /* Makes the image responsive within its container */
-    height: auto; /* Maintains aspect ratio */
+    width: 100%; /* Ensures the image uses the full width of its container */
+    height: auto; /* Maintains the image's aspect ratio */
 }
 
 .contact-section .location-info {
