@@ -60,9 +60,9 @@ footer {
 }
 
 .introduction-image {
-    width: 35%; /* Adjusted width to not overpower the text */
+    width: 30%; /* Adjusted width to not overpower the text */
     display: block;
-    max-height: 300px; /* Increased max height for better visibility */
+    max-height: 100px; /* Increased max height for better visibility */
     height: auto; /* Ensures the image maintains its aspect ratio */
     margin-left: auto; /* Pushes the image to the right */
 }
