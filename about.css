@@ -81,9 +81,9 @@ footer {
 }
 
 .location-map {
-    width: 60%; /* Adjusted size  */
+    width: 80%; /* Adjusted size  */
     height: auto;
-    margin-right: -40px; /* Adds spacing between the map and the text */
+    margin-right: 50px; /* Adds spacing between the map and the text */
 }
 
 .info-section {
@@ -93,13 +93,13 @@ footer {
 }
 
 .location-info, .contact-info {
-    margin-bottom: 300px; /* Adds spacing between location and contact sections */
+    margin-bottom: 30px; /* Adds spacing between location and contact sections */
 }
 
 /* Fine-tune the text alignment */
 .info-section h3 {
     font-size: 18px;
-    margin-bottom: -20px;
+    margin-bottom: 20px;
 }
 
 .info-section p {
