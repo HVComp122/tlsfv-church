@@ -70,30 +70,30 @@ footer {
 
 .contact-section {
     display: flex;
-    flex-direction: row; /* Ensures horizontal layout */
-    align-items: start; /* Aligns items to the top */
-    justify-content: space-between; /* Spaces the map and text evenly */
+    flex-direction: row; /* Adjusts the flex direction to row for side-by-side layout */
+    align-items: start;
     padding: 20px;
-    max-width: 1200px;
-    margin: 40px auto; /* Centers the section */
+    max-width: 1800px; /* Increased max-width for larger screens */
+    margin: 0 auto; /* Center the section */
 }
 
 .map {
-    width: 50%; /* Allocates half of the width to the map */
-    height: auto; /* Keeps the map's aspect ratio intact */
-    order: 1; /* Positions the map on the left */
+    width: 50%; /* Adjusted width for map */
+    height: auto; /* Ensures map height is proportional to its width */
+    order: 1; /* Ensures map is on the left */
+    object-fit: cover; /* Ensures the map covers the area properly */
 }
 
-.info-section { /* This class should wrap your location-info and contact-info */
+.info-section {
     display: flex;
-    flex-direction: column; /* Stacks the location and contact info vertically */
-    width: 45%; /* Adjusts the width to less than half to maintain spacing */
-    padding-left: 20px; /* Adds space between map and text */
-    order: 2; /* Ensures text appears on the right */
+    flex-direction: column;
+    width: 45%; /* Adjusted width to prevent overlap */
+    padding-left: 20px; /* Space between map and text */
+    order: 2; /* Ensures text section is on the right */
 }
 
 .location-info, .contact-info {
-    margin-bottom: 20px; /* Adds space between location and contact details */
+    margin-bottom: 20px; /* Adds space between the location and contact info */
 }
 
 /* Dropdown Menu Styles */
