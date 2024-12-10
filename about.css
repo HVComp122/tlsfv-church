@@ -58,7 +58,7 @@ footer {
     width: 45%; /* Adjusts the width to give more space for the image */
     font-size: 18px;
     line-height: 1.6;
-    margin-left: -20px; /* Moves text to the left by 20px */
+    margin-left: -40px; /* Moves text to the left by 20px */
     display: block; /* Ensures the text is treated as a block for proper layout */
 }
 
@@ -67,7 +67,7 @@ footer {
     height: auto; /* Ensures the image scales properly in height */
     display: block;
     object-fit: cover; /* Ensures the image covers the given space without distortion */
-    margin-right: -20px; /* Moves image to the right by 20px */
+    margin-right: -40px; /* Moves image to the right by 20px */
 }
 
 .contact-section {
@@ -80,20 +80,25 @@ footer {
 }
 
 .map {
-    width: 30%; /* Reduce width for a smaller map display */
+    width: 10%; /* Further reduce width for a smaller map display */
     height: auto;
     display: block;
     margin-right: 20px; /* Adds space between the map and the contact info */
 }
 
 .info-section {
-    width: 65%; /* Allocates majority of space to the contact info */
+    width: 70%; /* Increase the width to utilize the freed space from the map */
     display: flex;
     flex-direction: column;
 }
 
 .location-info, .contact-info {
-    margin-bottom: 20px;
+    margin-bottom: 20px; /* Adds spacing between sections */
+}
+
+/* Additional adjustment for a cleaner layout */
+.info-section h3, .info-section p {
+    margin: 0; /* Removes default margins to control spacing more precisely */
 }
 
 /* Dropdown Menu Styles */
