@@ -46,37 +46,35 @@ footer {
 .introduction-section {
     display: flex;
     padding: 20px;
-    align-items: center; /* Ensures vertical alignment is centered */
+    align-items: center;
     max-width: 1200px;
-    margin: 40px auto; /* Centers the section and provides top and bottom spacing */
-    justify-content: space-between; /* Ensures space between text and image */
+    margin: 0 auto; /* Centering the section horizontally */
+    justify-content: space-between; /* Spacing between text and image */
 }
 
 .introduction-text {
-    width: 60%; /* Gives text a bit more space */
-    font-size: 18px; /* Matches your design specifications */
-    line-height: 1.6; /* Improves readability by spacing out lines */
-    display: block;
+    width: 50%; /* Adjusting text width */
+    font-size: 18px;
+    line-height: 1.6;
+    padding-right: 20px; /* Right padding for spacing */
 }
 
 .introduction-image {
-    width: 35%; /* Reduces the width of the container for the image to fit better */
-    height: auto; /* Maintains the natural aspect ratio of the image */
-    display: block; /* Ensures the container is correctly formatted */
-    position: relative; /* Allows precise positioning of the image */
+    width: 40%; /* Adjusting image container width */
+    flex-shrink: 0; /* Prevents the container from shrinking */
+    position: relative;
+    overflow: hidden;
 }
 
 .introduction-image img {
-    max-width: 100%; /* Ensures the image does not exceed its container's width */
-    height: auto; /* Maintains the image's aspect ratio */
-    display: block; /* Ensures the image does not take more space than it should */
+    max-width: 100%; /* Ensures image does not overflow its container */
+    height: auto; /* Maintains aspect ratio */
+    display: block;
 }
-
-
 
 .contact-section .location-info {
     flex: 1;
-    padding-right: 20px; /* Spacing between map and text */
+    padding-right: 20px;
 }
 
 .contact-section .contact-info {
@@ -84,7 +82,7 @@ footer {
 }
 
 .contact-section .map {
-    width: 50%; /* Map takes half of the space */
+    width: 50%;
 }
 
 /* Dropdown Menu Styles */
