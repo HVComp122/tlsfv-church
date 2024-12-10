@@ -43,29 +43,31 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
 .welcome-section {
     display: flex;
-    flex-direction: row; /* Ensure the text and image are in a row */
+    flex-direction: row; /* Maintain row layout */
     align-items: flex-start; /* Aligns items to the top of the container */
     padding: 10px;
     max-width: 1200px;
-    margin: 10px auto; /* Centers the section and provides top and bottom spacing */
-    justify-content: space-between; /* Space between text and image */
+    margin: 10px auto; /* Centers the section with top and bottom spacing */
+    justify-content: space-between; /* Ensures space between text and image */
 }
 
 .welcome-text {
     width: 45%; /* Adjusts the width to give more space for the image */
     font-size: 18px;
     line-height: 1.6;
-    padding-right: 10px; /* Right padding for spacing */
+    margin-left: -20px; /* Moves text to the left by 20px */
     display: block; /* Ensures the text is treated as a block for proper layout */
 }
 
 .church-image {
-    width: 50%; /* Controls the width of the image to fit the layout better */
+    width: 50%; /* Adjusts the width of the image to fit the layout better */
     height: auto; /* Ensures the image scales properly in height */
     display: block;
     object-fit: cover; /* Ensures the image covers the given space without distortion */
+    margin-right: -20px; /* Moves image to the right by 20px */
 }
 
 .contact-section {
