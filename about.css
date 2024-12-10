@@ -49,32 +49,22 @@ footer {
     align-items: center; /* Ensures vertical alignment is centered */
     max-width: 1200px;
     margin: 40px auto; /* Centers the section and provides top and bottom spacing */
-    justify-content: space-between; /* Ensures space between text and image */
 }
 
 .introduction-text {
-    width: 60%; /* Gives text a bit more space */
-    font-size: 18px; /* Matches your design specifications */
-    line-height: 1.6; /* Improves readability by spacing out lines */
-    display: block;
+    width: 60%; /* Adjusts text block width */
+    padding-right: 20px; /* Space between text and image */
 }
 
 .introduction-image {
-    width: 40%; /* Adjusts the width of the container for the image */
-    display: block; /* Ensures the container is correctly formatted */
-    position: relative; /* Position relative to allow absolute positioning inside */
-    padding-top: 56.25%; /* Aspect ratio padding hack (16:9 aspect ratio) */
-    overflow: hidden; /* Hides anything outside this container */
+    width: 40%; /* Adjusts image width */
+    display: block;
+    margin-left: auto; /* Pushes the image to the right */
 }
 
 .introduction-image img {
-    position: absolute; /* Absolute position the image to have control over positioning */
-    top: 50%; /* Center the image vertically */
-    left: 50%; /* Center the image horizontally */
-    width: auto; /* Maintain the original width */
-    max-height: 100%; /* Limit height to the container's height */
-    transform: translate(-50%, -50%); /* Move the image to center on the container */
-}
+    width: 100%; /* Makes the image responsive within its container */
+    height: auto; /* Maintains aspect ratio */
 
 .contact-section .location-info {
     flex: 1;
