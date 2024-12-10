@@ -60,15 +60,20 @@ footer {
 }
 
 .introduction-image {
-    width: 35%; /* Adjust width for the image */
-    height: auto; /* Keeps the aspect ratio intact */
-    margin-left: 5%; /* Adds spacing between the text and the image */
+    width: 40%; /* Adjusts the width of the container for the image */
+    display: block; /* Ensures the container is correctly formatted */
+    position: relative; /* Position relative to allow absolute positioning inside */
+    padding-top: 56.25%; /* Aspect ratio padding hack (16:9 aspect ratio) */
+    overflow: hidden; /* Hides anything outside this container */
 }
 
-/* Styling for the image tag to ensure it fills the container */
 .introduction-image img {
-    width: 100%; /* Ensures the image uses the full width of its container */
-    height: auto; /* Maintains the image's aspect ratio */
+    position: absolute; /* Absolute position the image to have control over positioning */
+    top: 50%; /* Center the image vertically */
+    left: 50%; /* Center the image horizontally */
+    width: auto; /* Maintain the original width */
+    max-height: 100%; /* Limit height to the container's height */
+    transform: translate(-50%, -50%); /* Move the image to center on the container */
 }
 
 .contact-section .location-info {
