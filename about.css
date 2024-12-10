@@ -81,7 +81,7 @@ footer {
 }
 
 .location-map {
-    width: 30%; /* Adjusted size to match the screenshot */
+    width: 60%; /* Adjusted size to match the screenshot */
     height: auto;
     margin-right: -40px; /* Adds spacing between the map and the text */
 }
