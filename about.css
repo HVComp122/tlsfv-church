@@ -43,16 +43,20 @@ footer {
     bottom: 0;
     width: 100%;
 }
-.welcome-section h2 {
-    font-size: 36px; /* Adjust as needed */
+.welcome-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center; /* Align items vertically */
 }
 
-.welcome-section p {
-    font-size: 18px; /* Adjust as needed */
+.welcome-section .text {
+    flex: 1; /* Takes up half of the container */
+    padding-right: 20px; /* Spacing between text and image */
 }
 
-.church-image {
-    max-width: 100%;
+.welcome-section .church-image {
+    width: 50%; /* Image takes up the other half */
     height: auto;
 }
 
@@ -60,14 +64,20 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    align-items: center; /* Align items vertically */
 }
 
-.contact-info, .location-info {
-    width: 30%;
+.contact-section .location-info {
+    flex: 1;
+    padding-right: 20px; /* Spacing between map and text */
 }
 
-.location-map {
-    width: 40%; /* Adjust based on layout */
+.contact-section .contact-info {
+    flex: 1;
+}
+
+.contact-section .map {
+    width: 50%; /* Map takes half of the space */
 }
 
 /* Dropdown Menu Styles */
