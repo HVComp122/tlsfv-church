@@ -58,10 +58,10 @@ footer {
 }
 
 .introduction-image {
-    width: 50%; /* The image takes up the other half */
+    width: 40%; /* The image takes up the other half */
     height: auto;
     display: block;
-    max-height: 300px; /* Adjust this to fit the design */
+    max-height: 200px; /* Adjust this to fit the design */
 }
 
 .contact-section .location-info {
