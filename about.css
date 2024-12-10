@@ -70,30 +70,28 @@ footer {
 
 .contact-section {
     display: flex;
-    flex-direction: row; /* Adjusts the flex direction to row for side-by-side layout */
-    align-items: start;
+    align-items: flex-start;
     padding: 20px;
-    max-width: 1800px; /* Increased max-width for larger screens */
-    margin: 0 auto; /* Center the section */
+    margin: 0 auto;
+    max-width: 1200px; /* Adjust width according to the total available width */
+    justify-content: space-between; /* Ensures that the map and the info are spaced out */
 }
 
 .map {
-    width: 50%; /* Adjusted width for map */
-    height: auto; /* Ensures map height is proportional to its width */
-    order: 1; /* Ensures map is on the left */
-    object-fit: cover; /* Ensures the map covers the area properly */
+    width: 30%; /* Reduce width for a smaller map display */
+    height: auto;
+    display: block;
+    margin-right: 20px; /* Adds space between the map and the contact info */
 }
 
 .info-section {
+    width: 65%; /* Allocates majority of space to the contact info */
     display: flex;
     flex-direction: column;
-    width: 45%; /* Adjusted width to prevent overlap */
-    padding-left: 20px; /* Space between map and text */
-    order: 2; /* Ensures text section is on the right */
 }
 
 .location-info, .contact-info {
-    margin-bottom: 20px; /* Adds space between the location and contact info */
+    margin-bottom: 20px;
 }
 
 /* Dropdown Menu Styles */
