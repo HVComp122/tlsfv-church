@@ -60,14 +60,14 @@ footer {
 }
 
 .introduction-image {
-    width: 40%; /* Adjusting image container width */
+    width: 10%; /* Adjusting image container width */
     flex-shrink: 0; /* Prevents the container from shrinking */
     position: relative;
     overflow: hidden;
 }
 
 .introduction-image img {
-    max-width: 100%; /* Ensures image does not overflow its container */
+    max-width: 50%; /* Ensures image does not overflow its container */
     height: auto; /* Maintains aspect ratio */
     display: block;
 }
