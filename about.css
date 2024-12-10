@@ -80,14 +80,14 @@ footer {
 }
 
 .map {
-    width: 10%; /* Further reduce width for a smaller map display */
+    width: 30%; /* Further reduce width for a smaller map display */
     height: auto;
     display: block;
-    margin-right: -20px; /* Adds space between the map and the contact info */
+    margin-right: 20px; /* Adds space between the map and the contact info */
 }
 
 .info-section {
-    width: 70%; /* Increase the width to utilize the freed space from the map */
+    width: 65%; /* Increase the width to utilize the freed space from the map */
     display: flex;
     flex-direction: column;
 }
