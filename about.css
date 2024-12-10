@@ -93,13 +93,13 @@ footer {
 }
 
 .location-info, .contact-info {
-    margin-bottom: -20px; /* Adds spacing between location and contact sections */
+    margin-bottom: 300px; /* Adds spacing between location and contact sections */
 }
 
 /* Fine-tune the text alignment */
 .info-section h3 {
     font-size: 18px;
-    margin-bottom: 10px;
+    margin-bottom: -20px;
 }
 
 .info-section p {
