@@ -75,30 +75,36 @@ footer {
     align-items: flex-start;
     padding: 20px;
     margin: 0 auto;
-    max-width: 1200px; /* Adjust width according to the total available width */
-    justify-content: space-between; /* Ensures that the map and the info are spaced out */
+    max-width: 1200px;
+    justify-content: flex-start; /* Align map and text to the left */
 }
 
 .map {
-    width: 30%; /* Further reduce width for a smaller map display */
+    width: 20%; /* Adjusted size to match the screenshot */
     height: auto;
-    display: block;
-    margin-right: 20px; /* Adds space between the map and the contact info */
+    margin-right: 40px; /* Adds spacing between the map and the text */
 }
 
 .info-section {
-    width: 65%; /* Increase the width to utilize the freed space from the map */
+    width: 75%; /* Allocates majority of space for the text */
     display: flex;
     flex-direction: column;
 }
 
 .location-info, .contact-info {
-    margin-bottom: 20px; /* Adds spacing between sections */
+    margin-bottom: 20px; /* Adds spacing between location and contact sections */
 }
 
-/* Additional adjustment for a cleaner layout */
-.info-section h3, .info-section p {
-    margin: 0; /* Removes default margins to control spacing more precisely */
+/* Fine-tune the text alignment */
+.info-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.info-section p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
 }
 
 /* Dropdown Menu Styles */
