@@ -43,33 +43,26 @@ footer {
     bottom: 0;
     width: 100%;
 }
-.introduction-section {
+.welcome-section {
     display: flex;
-    padding: 20px;
     align-items: center;
+    justify-content: space-between;
     max-width: 1200px;
-    margin: 0 auto; /* Centering the section horizontally */
-    justify-content: space-between; /* Spacing between text and image */
+    margin: 40px auto;
+    padding: 20px;
 }
 
-.introduction-text {
-    width: 50%; /* Adjusting text width */
+.welcome-text {
+    width: 50%;
     font-size: 18px;
     line-height: 1.6;
-    padding-right: 20px; /* Right padding for spacing */
 }
 
-.introduction-image {
-    width: 10%; /* Adjusting image container width */
-    flex-shrink: 0; /* Prevents the container from shrinking */
-    position: relative;
-    overflow: hidden;
-}
-
-.introduction-image img {
-    max-width: 50%; /* Ensures image does not overflow its container */
-    height: auto; /* Maintains aspect ratio */
+.church-image {
+    width: 50%; /* Adjust the width to better control the size of the image */
+    height: auto;
     display: block;
+    object-fit: cover; /* Ensures the image covers the area properly without distortion */
 }
 
 .contact-section .location-info {
