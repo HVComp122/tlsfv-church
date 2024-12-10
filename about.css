@@ -83,7 +83,7 @@ footer {
 .location-map {
     width: 80%; /* Adjusted size  */
     height: auto;
-    margin-right: 50px; /* Adds spacing between the map and the text */
+    margin-right: -80px; /* Adds spacing between the map and the text */
 }
 
 .info-section {
