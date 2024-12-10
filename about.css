@@ -43,28 +43,25 @@ footer {
     bottom: 0;
     width: 100%;
 }
-.welcome-section {
+.introduction-section {
     display: flex;
-    justify-content: space-between;
     padding: 20px;
     align-items: center; /* Align items vertically */
+    max-width: 1200px;
+    margin: 0 auto; /* Center the section */
 }
 
-.welcome-section .text {
-    flex: 1; /* Takes up half of the container */
+.introduction-text {
+    width: 50%; /* Takes up half of the container */
     padding-right: 20px; /* Spacing between text and image */
+    font-size: 18px; /* Adjusted for visibility and matching the design */
 }
 
-.welcome-section .church-image {
-    width: 50%; /* Image takes up the other half */
+.introduction-image {
+    width: 50%; /* The image takes up the other half */
     height: auto;
-}
-
-.contact-section {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    align-items: center; /* Align items vertically */
+    display: block;
+    max-height: 300px; /* Adjust this to fit the design */
 }
 
 .contact-section .location-info {
