@@ -68,17 +68,32 @@ footer {
     object-fit: cover; /* Ensures the image covers the given space without distortion */
 }
 
-.contact-section .location-info {
-    flex: 1;
-    padding-right: 20px;
+.contact-section {
+    display: flex;
+    flex-direction: row; /* Ensures horizontal layout */
+    align-items: start; /* Aligns items to the top */
+    justify-content: space-between; /* Spaces the map and text evenly */
+    padding: 20px;
+    max-width: 1200px;
+    margin: 40px auto; /* Centers the section */
 }
 
-.contact-section .contact-info {
-    flex: 1;
+.map {
+    width: 50%; /* Allocates half of the width to the map */
+    height: auto; /* Keeps the map's aspect ratio intact */
+    order: 1; /* Positions the map on the left */
 }
 
-.contact-section .map {
-    width: 50%;
+.info-section { /* This class should wrap your location-info and contact-info */
+    display: flex;
+    flex-direction: column; /* Stacks the location and contact info vertically */
+    width: 45%; /* Adjusts the width to less than half to maintain spacing */
+    padding-left: 20px; /* Adds space between map and text */
+    order: 2; /* Ensures text appears on the right */
+}
+
+.location-info, .contact-info {
+    margin-bottom: 20px; /* Adds space between location and contact details */
 }
 
 /* Dropdown Menu Styles */
