@@ -77,10 +77,11 @@ footer {
     margin: 0 auto;
     max-width: 1200px;
     justify-content: flex-start; /* Align map and text to the left */
+    margin-right: -20px;
 }
 
 .location-map {
-    width: 5%; /* Adjusted size to match the screenshot */
+    width: 30%; /* Adjusted size to match the screenshot */
     height: auto;
     margin-right: -40px; /* Adds spacing between the map and the text */
 }
@@ -92,7 +93,7 @@ footer {
 }
 
 .location-info, .contact-info {
-    margin-bottom: 20px; /* Adds spacing between location and contact sections */
+    margin-bottom: -20px; /* Adds spacing between location and contact sections */
 }
 
 /* Fine-tune the text alignment */
