@@ -77,13 +77,13 @@ footer {
     margin: 0 auto;
     max-width: 1200px;
     justify-content: flex-start; /* Align map and text to the left */
-    margin-right: -50px;
+    margin-right: 10px;
 }
 
 .location-map {
     width: 80%; /* Adjusted size  */
     height: auto;
-    margin-left: 20px; /* Adds spacing between the map and the text */
+    margin-left: 50px; /* Adds spacing between the map and the text */
 }
 
 .info-section {
