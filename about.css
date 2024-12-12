@@ -84,7 +84,7 @@ footer {
     width: 100%; /* Adjusted size  */
     height: auto;
     margin-left: -250px; /* Adds spacing between the map and the text */
-    margin-top: -50px;
+    margin-top: 10px;
 }
 
 .info-section {
