@@ -73,11 +73,11 @@ footer {
 .contact-section {
     display: flex;
     align-items: flex-start;
-    padding: 40px;
+    padding: 20px;
     margin: 0 auto;
     max-width: 1200px;
     justify-content: flex-start; /* Align map and text to the left */
-    margin-right: 10px;
+    margin-right: 60px;
 }
 
 .location-map {
