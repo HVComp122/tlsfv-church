@@ -15,7 +15,7 @@ header {
 }
 
 nav ul {
-    list-style-type: none; /* No bullets */
+    list-style-type: none; 
     padding: 0;
     margin: 0;
     display: flex;
@@ -27,7 +27,7 @@ nav ul li {
 
 nav ul li a {
     color: #000000; /* Black color for links */
-    text-decoration: none; /* No underline */
+    text-decoration: none; 
     font-weight: 600;
 }
 
@@ -63,7 +63,7 @@ nav ul li a:hover {
 }
 
 .welcome-image {
-    width: 45%; /* Allocates 45% space to the image */
+    width: 45%; 
     display: flex;
     justify-content: center;
     align-items: center;
