@@ -15,7 +15,7 @@ header {
 }
 
 nav ul {
-    list-style-type: none; /* No bullets */
+    list-style-type: none; 
     padding: 0;
     margin: 0;
     display: flex;
@@ -27,12 +27,12 @@ nav ul li {
 
 nav ul li a {
     color: #000000; /* Black color for links */
-    text-decoration: none; /* No underline */
+    text-decoration: none; 
     font-weight: 600;
 }
 
 nav ul li a:hover {
-    text-decoration: underline; /* Underline on hover */
+    text-decoration: underline;
 }
 
 .seniors-ministry {
@@ -69,7 +69,7 @@ nav ul li a:hover {
 }
 
 .meeting-schedule {
-    margin-top: 80px; /* Additional space above the meeting schedule */
+    margin-top: 80px; 
 }
 
 footer {
@@ -114,5 +114,5 @@ footer {
 }
 
 .dropdown:hover a {
-    background-color: #ffffff; /* Light grey background for the dropdown button on hover */
+    background-color: #ffffff; 
 }
