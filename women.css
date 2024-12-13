@@ -69,7 +69,7 @@ nav ul li a:hover {
 }
 
 .meeting-schedule {
-    margin-top: 80px; /* Additional space above the meeting schedule */
+    margin-top: 80px; 
 }
 
 footer {
@@ -114,5 +114,5 @@ footer {
 }
 
 .dropdown:hover a {
-    background-color: #ffffff; /* Light grey background for the dropdown button on hover */
+    background-color: #ffffff; 
 }
